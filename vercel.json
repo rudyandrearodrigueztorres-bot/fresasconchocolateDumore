@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "name": "dumore-chocolate",
+  "cleanUrls": true,
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/$1"
+    }
+  ]
+}

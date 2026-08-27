@@ -1,0 +1,550 @@
+<!DOCTYPE html><html class="light" lang="en" style=""><head>
+<meta charset="utf-8">
+<meta content="width=device-width, initial-scale=1.0" name="viewport">
+<title>DUMORE Chocolate</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&amp;family=Inter:wght@400;500;600&amp;display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet">
+<script id="tailwind-config">
+      tailwind.config = {
+        darkMode: "class",
+        theme: {
+          extend: {
+            "colors": {
+                    "surface": "#fff7f9",
+                    "inverse-primary": "#ffafd3",
+                    "on-primary-fixed": "#3a0524",
+                    "surface-variant": "#eae0e5",
+                    "surface-container-lowest": "#ffffff",
+                    "surface-tint": "#8b4969",
+                    "on-secondary-fixed-variant": "#82233e",
+                    "primary-container": "#e091b5",
+                    "on-background": "#1f1a1e",
+                    "secondary": "#a03b55",
+                    "on-surface-variant": "#514348",
+                    "surface-container-low": "#fcf1f6",
+                    "surface-container": "#f6ebf0",
+                    "surface-dim": "#e2d7dc",
+                    "on-primary": "#ffffff",
+                    "on-secondary-fixed": "#3f0016",
+                    "on-tertiary-fixed": "#2e1505",
+                    "on-tertiary-fixed-variant": "#603f2c",
+                    "secondary-container": "#f9809b",
+                    "inverse-on-surface": "#f9eef3",
+                    "tertiary": "#7b5641",
+                    "on-secondary-container": "#721633",
+                    "on-secondary": "#ffffff",
+                    "secondary-fixed": "#ffd9de",
+                    "surface-container-highest": "#eae0e5",
+                    "primary-fixed": "#ffd8e7",
+                    "surface-bright": "#fff7f9",
+                    "tertiary-fixed": "#ffdbc9",
+                    "on-primary-fixed-variant": "#6f3151",
+                    "secondary-fixed-dim": "#ffb2bf",
+                    "on-error-container": "#93000a",
+                    "primary": "#8b4969",
+                    "background": "#fff7f9",
+                    "on-surface": "#1f1a1e",
+                    "surface-container-high": "#f0e5ea",
+                    "primary-fixed-dim": "#ffafd3",
+                    "on-tertiary": "#ffffff",
+                    "outline": "#837379",
+                    "tertiary-container": "#cc9f87",
+                    "inverse-surface": "#342f33",
+                    "on-error": "#ffffff",
+                    "on-tertiary-container": "#563623",
+                    "on-primary-container": "#642848",
+                    "error-container": "#ffdad6",
+                    "error": "#ba1a1a",
+                    "tertiary-fixed-dim": "#ecbca3",
+                    "outline-variant": "#d5c1c8"
+            },
+            "borderRadius": {
+                    "DEFAULT": "0.125rem",
+                    "lg": "0.25rem",
+                    "xl": "0.5rem",
+                    "full": "0.75rem"
+            },
+            "spacing": {
+                    "margin-desktop": "40px",
+                    "unit": "8px",
+                    "gutter": "24px",
+                    "container-max": "1200px",
+                    "section-gap": "80px",
+                    "margin-mobile": "16px"
+            },
+            "fontFamily": {
+                    "price-display": [
+                            "Playfair Display"
+                    ],
+                    "label-caps": [
+                            "Inter"
+                    ],
+                    "body-md": [
+                            "Inter"
+                    ],
+                    "display-lg-mobile": [
+                            "Playfair Display"
+                    ],
+                    "headline-md-mobile": [
+                            "Playfair Display"
+                    ],
+                    "body-lg": [
+                            "Inter"
+                    ],
+                    "headline-md": [
+                            "Playfair Display"
+                    ],
+                    "title-sm": [
+                            "Playfair Display"
+                    ],
+                    "display-lg": [
+                            "Playfair Display"
+                    ]
+            },
+            "fontSize": {
+                    "price-display": [
+                            "24px",
+                            {
+                                    "lineHeight": "1.0",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "label-caps": [
+                            "12px",
+                            {
+                                    "lineHeight": "1.0",
+                                    "letterSpacing": "0.1em",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "body-md": [
+                            "16px",
+                            {
+                                    "lineHeight": "1.6",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "display-lg-mobile": [
+                            "32px",
+                            {
+                                    "lineHeight": "1.2",
+                                    "fontWeight": "700"
+                            }
+                    ],
+                    "headline-md-mobile": [
+                            "24px",
+                            {
+                                    "lineHeight": "1.3",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "body-lg": [
+                            "18px",
+                            {
+                                    "lineHeight": "1.6",
+                                    "fontWeight": "400"
+                            }
+                    ],
+                    "headline-md": [
+                            "32px",
+                            {
+                                    "lineHeight": "1.3",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "title-sm": [
+                            "20px",
+                            {
+                                    "lineHeight": "1.4",
+                                    "fontWeight": "600"
+                            }
+                    ],
+                    "display-lg": [
+                            "48px",
+                            {
+                                    "lineHeight": "1.2",
+                                    "letterSpacing": "-0.01em",
+                                    "fontWeight": "700"
+                            }
+                    ]
+            }
+          },
+        },
+      }
+    </script>
+<style>
+        body {
+            background-color: #fff7f9; /* bg-surface */
+            color: #1f1a1e; /* text-on-surface */
+        }
+        .btn-primary {
+            background-color: #8B2A45;
+            color: #ffffff;
+            transition: all 0.3s ease;
+        }
+        .btn-primary:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 4px 12px rgba(139, 42, 69, 0.2);
+        }
+        .card-glow {
+            box-shadow: 0 8px 30px rgba(139, 42, 69, 0.05);
+            transition: all 0.3s ease;
+        }
+        .card-glow:hover {
+            box-shadow: 0 12px 40px rgba(139, 42, 69, 0.08);
+            transform: translateY(-4px);
+        }
+        .product-card {
+            background: #ffffff;
+            border-radius: 12px;
+            padding: 24px;
+            box-shadow: 0 4px 20px rgba(139, 42, 69, 0.05);
+            transition: all 0.3s ease;
+            border: 1px solid rgba(224, 145, 181, 0.2);
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+        }
+        .product-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 8px 30px rgba(139, 42, 69, 0.1);
+            border-color: rgba(224, 145, 181, 0.5);
+        }
+        .price-tag {
+            color: #8B2A45;
+            font-weight: 700;
+        }
+        .section-title {
+            position: relative;
+            display: inline-block;
+            margin-bottom: 2rem;
+        }
+        .section-title::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 50%;
+            transform: translateX(-50%);
+            width: 60px;
+            height: 2px;
+            background-color: #8B2A45;
+        }
+        .hide-scrollbar::-webkit-scrollbar {
+            display: none;
+        }
+        .hide-scrollbar {
+            -ms-overflow-style: none;
+            scrollbar-width: none;
+        }
+        .carousel-btn {
+            background-color: rgba(255, 255, 255, 0.8);
+            backdrop-filter: blur(4px);
+            color: #8B2A45;
+            border: 1px solid rgba(139, 42, 69, 0.2);
+            transition: all 0.2s ease;
+        }
+        .carousel-btn:hover {
+            background-color: #8B2A45;
+            color: white;
+        }
+    </style>
+</head>
+<body class="font-body-md text-body-md antialiased overflow-x-hidden">
+<!-- TopAppBar -->
+<header class="fixed top-0 w-full z-50 bg-surface/90 dark:bg-surface/90 backdrop-blur-md shadow-sm border-b border-on-secondary-container/10">
+<div class="flex justify-between items-center px-margin-desktop py-4 max-w-container-max mx-auto">
+<div class="cursor-pointer active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-secondary dark:text-secondary-fixed">menu</span>
+</div>
+<div class="font-display-lg text-display-lg text-secondary dark:text-secondary-fixed tracking-tighter"><img src="https://lh3.googleusercontent.com/aida/AEtjO1XYOyIfGRvA_Uf8GaHqqjC2NhG65fTU0xaFKxvoYC5NI88w1KVx-y-BB9VGE9k98N-uFPiTJN4VXkxCmCkIcvkKmzI-qEosoM7mrOrZBBWZLHwvf62nnSYdKDjc09ixHxetFU7LbGuCf1zihiuG-tH_PF9NL_0KFGbyb65-dh-q4av87OdKTnaXyrmgtiYb0F04jEPyo0-m4u09YRYGzLgjEdimBsoCJ2JaNBG1R5E2K0yzrLA7klaZskeo" alt="DUMORE" class="h-8 w-auto object-contain"></div>
+<div class="cursor-pointer active:scale-95 transition-transform">
+<span class="material-symbols-outlined text-secondary dark:text-secondary-fixed">shopping_bag</span>
+</div>
+</div>
+<nav class="hidden md:flex justify-center space-x-8 pb-4">
+<a class="text-primary font-bold border-b-2 border-primary pb-1" href="#inicio">Inicio</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#productos">Productos</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#calculadora">Calculadora</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#reservar">Reservar</a>
+<a class="text-on-surface-variant font-medium hover:text-primary transition-colors duration-300" href="#contacto">Contacto</a>
+</nav>
+</header>
+<main class="pt-[120px]">
+<!-- Hero Section -->
+<section class="relative min-h-[80vh] flex items-center justify-center px-margin-mobile md:px-margin-desktop py-section-gap overflow-hidden" id="inicio"><div class="absolute inset-0 z-0">
+  <img src="https://lh3.googleusercontent.com/aida-public/AB6AXuDZyQYx24faigXDmt-RQCtWqRfPd_I01TavoEhRwevlJNBUR1HMWW_9cQnO7CbUt3kP8161bm_aNbfoP7CFDJyB_YYefssUt1rCdMq6LhvDNOV4ARo7bzUl0PwbVQrDfmG6CU0nFStZORVcGPZ2BBPuHRh2eAybH14jrFWY86kuPYfFxHlipOBNFm7eKeFmFaAOP2I_V0ssbHulqMj3qIrYnYlciPsS-Jj-gKFPMMPO4o1mHX5WY-Oilc9xBCcoEjWABr7MBOqRyKAWB_k" alt="Luxury Chocolate Banner" class="w-full h-full object-cover">
+  <div class="absolute inset-0 bg-black/30 backdrop-blur-[2px]"></div>
+</div>
+<div class="relative z-10 max-w-container-max mx-auto px-margin-mobile md:px-margin-desktop text-center space-y-8">
+  <div class="flex justify-center mb-8">
+    <div class="w-32 h-32 md:w-48 md:h-48 rounded-full overflow-hidden border-4 border-white/20 shadow-2xl">
+      <img src="https://lh3.googleusercontent.com/aida/AEtjO1XYOyIfGRvA_Uf8GaHqqjC2NhG65fTU0xaFKxvoYC5NI88w1KVx-y-BB9VGE9k98N-uFPiTJN4VXkxCmCkIcvkKmzI-qEosoM7mrOrZBBWZLHwvf62nnSYdKDjc09ixHxetFU7LbGuCf1zihiuG-tH_PF9NL_0KFGbyb65-dh-q4av87OdKTnaXyrmgtiYb0F04jEPyo0-m4u09YRYGzLgjEdimBsoCJ2JaNBG1R5E2K0yzrLA7klaZskeo" alt="DUMORE Logo" class="w-full h-full object-cover">
+    </div>
+  </div>
+  <div class="max-w-3xl mx-auto space-y-6">
+    <h1 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-white drop-shadow-lg">
+      Seleccionamos las mejores fresas y las convertimos en detalles únicos que enamoran
+    </h1>
+    <p class="font-body-lg text-body-lg text-white/90 max-w-xl mx-auto drop-shadow-md">
+      Descubre nuestra selección premium de fresas cubiertas con el más fino chocolate, diseñadas para crear momentos inolvidables.
+    </p>
+    <div class="pt-8">
+      <a href="https://wa.me/573108239392" target="_blank" class="inline-flex items-center justify-center px-10 py-4 bg-white text-primary hover:bg-primary-container hover:text-white transition-all duration-300 rounded-full font-label-caps text-label-caps uppercase tracking-widest gap-2 shadow-xl active:scale-95">
+        Haz tu pedido ahora <span class="material-symbols-outlined">send</span>
+      </a>
+    </div>
+  </div>
+</div></section>
+<!-- About Section -->
+<section class="py-section-gap px-margin-mobile md:px-margin-desktop bg-surface-container-lowest">
+<div class="max-w-container-max mx-auto text-center space-y-12">
+<div class="space-y-4">
+<h2 class="font-headline-md-mobile md:font-headline-md text-headline-md-mobile md:text-headline-md text-secondary">La Experiencia DUMORE</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto">
+                        Más que un postre, cremos regalos personalizados. Cada detalle cuenta, desde la selección de ingredientes hasta la posibilidad de incluir fotos enmarcadas que perduran más allá del primer bocado.
+                    </p>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+<div class="p-8 rounded-xl bg-surface card-glow space-y-4 border border-primary-container/20">
+<span class="material-symbols-outlined text-4xl text-primary" style="font-variation-settings: &quot;FILL&quot; 1;">favorite</span>
+<h3 class="font-title-sm text-title-sm text-on-surface">Personalización</h3>
+<p class="text-on-surface-variant">Mensajes especiales, colores a elección y empaques diseñados a medida.</p>
+</div>
+<div class="p-8 rounded-xl bg-surface card-glow space-y-4 border border-primary-container/20">
+<span class="material-symbols-outlined text-4xl text-primary" style="font-variation-settings: &quot;FILL&quot; 1;">local_shipping</span>
+<h3 class="font-title-sm text-title-sm text-on-surface">Entrega a Domicilio</h3>
+<p class="text-on-surface-variant">Llevamos la sorpresa directamente a la puerta de esa persona especial.</p>
+</div>
+<div class="p-8 rounded-xl bg-surface card-glow space-y-4 border border-primary-container/20">
+<span class="material-symbols-outlined text-4xl text-primary" style="font-variation-settings: &quot;FILL&quot; 1;">card_giftcard</span>
+<h3 class="font-title-sm text-title-sm text-on-surface">Ideal para Regalo</h3>
+<p class="text-on-surface-variant">Opciones que incluyen fotos enmarcadas para un recuerdo duradero.</p>
+</div>
+</div>
+</div>
+</section>
+<!-- Catalog Section -->
+<section class="py-section-gap px-0 md:px-margin-desktop bg-surface overflow-hidden" id="productos">
+<div class="max-w-container-max mx-auto">
+<div class="text-center mb-16 px-margin-mobile">
+<h2 class="font-display-lg-mobile md:font-display-lg text-display-lg-mobile md:text-display-lg text-secondary section-title">Nuestro Catálogo</h2>
+<p class="font-body-lg text-body-lg text-on-surface-variant max-w-2xl mx-auto mt-6">
+                Descubre nuestra exquisita selección de productos diseñados para sorprender y deleitar.
+            </p>
+</div>
+<!-- Fresas Premium -->
+<div class="mb-20 relative px-margin-mobile md:px-0">
+<h3 class="font-headline-md text-headline-md text-primary mb-8 text-center md:text-left">Fresas Premium</h3>
+<p class="font-body-md text-body-md text-on-surface-variant mb-8 text-center md:text-left italic">
+                * Diseños y colores a elección, opción de foto en marco (valor adicional)
+            </p>
+<div class="relative group">
+<div class="flex overflow-x-auto hide-scrollbar snap-x snap-mandatory gap-6 pb-8 -mx-margin-mobile px-margin-mobile md:mx-0 md:px-0" id="carousel-fresas">
+<!-- Caja -->
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Fresas Premium en Caja" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuZMaGK8HNJcmtxxJddTT69h-vlOm2nfWYq18IKaqBHGV6DkzG9jcDj9rF6sP_VvsZzecC9_D3Ot4FnSTq5NeYbWoypr4rNA7w-epwlVmzr4JM6xTH4lNK_AAJHRU0qbl82_LrQdIENZABDgDrHmYZPC3FLG-FwxInq1dW4U8miuBGBPe1nHUAAYNcXP7mztM6oTo1JODmqNE6kehAVRnL1L3x7XPUauyeXN3P981VUKBLObocMuDbyQ">
+<h4 class="font-title-sm text-title-sm text-secondary mb-4 border-b border-outline-variant/30 pb-2">Presentación en Caja</h4>
+<ul class="space-y-3 mb-6 flex-grow"><li class="flex justify-between items-center"><span class="text-on-surface">Caja x6</span><span class="price-tag">$45.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x9</span><span class="price-tag">$55.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x12</span><span class="price-tag">$70.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x15</span><span class="price-tag">$80.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x20</span><span class="price-tag">$90.000</span></li></ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20unas%20Fresas%20Premium%20en%20Caja" target="_blank">
+                        Pedir por WhatsApp <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Ramo -->
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Fresas Premium en Ramo" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuZMaGK8HNJcmtxxJddTT69h-vlOm2nfWYq18IKaqBHGV6DkzG9jcDj9rF6sP_VvsZzecC9_D3Ot4FnSTq5NeYbWoypr4rNA7w-epwlVmzr4JM6xTH4lNK_AAJHRU0qbl82_LrQdIENZABDgDrHmYZPC3FLG-FwxInq1dW4U8miuBGBPe1nHUAAYNcXP7mztM6oTo1JODmqNE6kehAVRnL1L3x7XPUauyeXN3P981VUKBLObocMuDbyQ">
+<h4 class="font-title-sm text-title-sm text-secondary mb-4 border-b border-outline-variant/30 pb-2">Presentación en Ramo</h4>
+<ul class="space-y-3 mb-6 flex-grow"><li class="flex justify-between items-center"><span class="text-on-surface">Ramo x4</span><span class="price-tag">$40.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Ramo x6</span><span class="price-tag">$50.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Ramo x9</span><span class="price-tag">$60.000</span></li></ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20unas%20Fresas%20Premium%20en%20Ramo" target="_blank">
+                        Pedir por WhatsApp <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Vaso -->
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Fresas Premium en Vaso" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuDuZMaGK8HNJcmtxxJddTT69h-vlOm2nfWYq18IKaqBHGV6DkzG9jcDj9rF6sP_VvsZzecC9_D3Ot4FnSTq5NeYbWoypr4rNA7w-epwlVmzr4JM6xTH4lNK_AAJHRU0qbl82_LrQdIENZABDgDrHmYZPC3FLG-FwxInq1dW4U8miuBGBPe1nHUAAYNcXP7mztM6oTo1JODmqNE6kehAVRnL1L3x7XPUauyeXN3P981VUKBLObocMuDbyQ">
+<h4 class="font-title-sm text-title-sm text-secondary mb-4 border-b border-outline-variant/30 pb-2">Presentación en Vaso</h4>
+<ul class="space-y-3 mb-6 flex-grow"><li class="flex justify-between items-center"><span class="text-on-surface">Vaso x6</span><span class="price-tag">$45.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Vaso x8</span><span class="price-tag">$50.000</span></li></ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20unas%20Fresas%20Premium%20en%20Vaso" target="_blank">
+                        Pedir por WhatsApp <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Chocobombas -->
+<div class="mb-20 relative px-margin-mobile md:px-0">
+<h3 class="font-headline-md text-headline-md text-primary mb-8 text-center md:text-left">Chocobombas</h3>
+<div class="relative group">
+<div class="flex overflow-x-auto hide-scrollbar snap-x snap-mandatory gap-6 pb-8 -mx-margin-mobile px-margin-mobile md:mx-0 md:px-0" id="carousel-chocobombas">
+<!-- Clásica -->
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Chocobombas Clásica" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHcn_giLblbEJD3m_9PSqR6NBYv5B4FLaUxPNUZayD7KSje9OCgX9tVL29bz_Hk9AHEf1OnnheFMrgcRrUOLny1slnU-niBNDLvbR7hIuOtxIzndA-JlEi8xF5h7bs7p7boEbUCL8aycTsQzUs8UF-jmyaAEQdY23Jky29kSfRYmg7X2phqFvfPlqFRM7PS1zJsOuJdR8uH0MrXC0EUkNCrVNXCVwrwV98KXpJBDmHPXEx2L0gn3NMJA">
+<h4 class="font-title-sm text-title-sm text-secondary mb-2">Clásica</h4>
+<p class="text-sm text-on-surface-variant mb-4 border-b border-outline-variant/30 pb-2">Relleno de cacao y masmelos. Adicionales (+1k): Milo, Klim, etc.</p>
+<ul class="space-y-3 mb-6 flex-grow"><li class="flex justify-between items-center"><span class="text-on-surface">Unidad</span><span class="price-tag">$10.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x4</span><span class="price-tag">$40.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x6</span><span class="price-tag">$60.000</span></li></ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20Chocobombas%20Clásicas" target="_blank">
+                        Pedir por WhatsApp <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Premium -->
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Chocobombas Premium" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHcn_giLblbEJD3m_9PSqR6NBYv5B4FLaUxPNUZayD7KSje9OCgX9tVL29bz_Hk9AHEf1OnnheFMrgcRrUOLny1slnU-niBNDLvbR7hIuOtxIzndA-JlEi8xF5h7bs7p7boEbUCL8aycTsQzUs8UF-jmyaAEQdY23Jky29kSfRYmg7X2phqFvfPlqFRM7PS1zJsOuJdR8uH0MrXC0EUkNCrVNXCVwrwV98KXpJBDmHPXEx2L0gn3NMJA">
+<h4 class="font-title-sm text-title-sm text-secondary mb-2">Premium</h4>
+<p class="text-sm text-on-surface-variant mb-4 border-b border-outline-variant/30 pb-2">Incluye: M&amp;M, maní, oreo, fresa, chips.</p>
+<ul class="space-y-3 mb-6 flex-grow"><li class="flex justify-between items-center"><span class="text-on-surface">Unidad</span><span class="price-tag">$13.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x4</span><span class="price-tag">$52.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x6</span><span class="price-tag">$78.000</span></li></ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20Chocobombas%20Premium" target="_blank">
+                        Pedir por WhatsApp <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Mini Clásica -->
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Chocobombas Mini Clásica" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBHcn_giLblbEJD3m_9PSqR6NBYv5B4FLaUxPNUZayD7KSje9OCgX9tVL29bz_Hk9AHEf1OnnheFMrgcRrUOLny1slnU-niBNDLvbR7hIuOtxIzndA-JlEi8xF5h7bs7p7boEbUCL8aycTsQzUs8UF-jmyaAEQdY23Jky29kSfRYmg7X2phqFvfPlqFRM7PS1zJsOuJdR8uH0MrXC0EUkNCrVNXCVwrwV98KXpJBDmHPXEx2L0gn3NMJA">
+<h4 class="font-title-sm text-title-sm text-secondary mb-4 border-b border-outline-variant/30 pb-2">Mini Clásica</h4>
+<ul class="space-y-3 mb-6 flex-grow"><li class="flex justify-between items-center"><span class="text-on-surface">Unidad</span><span class="price-tag">$5.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x4</span><span class="price-tag">$20.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x6</span><span class="price-tag">$30.000</span></li></ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20Chocobombas%20Mini%20Clásicas" target="_blank">
+                        Pedir por WhatsApp <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Mini Donas -->
+<div class="mb-20 relative px-margin-mobile md:px-0">
+<h3 class="font-headline-md text-headline-md text-primary mb-8 text-center md:text-left">Mini Donas</h3>
+<div class="relative group">
+<div class="flex overflow-x-auto hide-scrollbar snap-x snap-mandatory gap-6 pb-8 -mx-margin-mobile px-margin-mobile md:mx-0 md:px-0" id="carousel-donas">
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Mini Donas" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7vnMOqULuO_8_ISA4bD5WvKuFuMLKB755zDF-q7zV1VwAmcvUonaPms7vnh-Ew3lNCL-pOj2Vvoi7ySN0S_nS5mGP9_oE3drlAwSbWjFygStngtbbp0FaVJtPv7S8ZNMR5nK7NpsoJCs-JzyQmUhkF8i1yl0wH4TZ2Ehulqf9xV5NcoVIv9vS2GvkbL7IhqPYRyHi1mfF7bu8WRputC_fOA6QZhEcIbmcokpWg80vrOA75O5DBvAZmw">
+<h4 class="font-title-sm text-title-sm text-secondary mb-4 border-b border-outline-variant/30 pb-2">Cajas</h4>
+<ul class="space-y-3 mb-6 flex-grow"><li class="flex justify-between items-center"><span class="text-on-surface">Caja x8</span><span class="price-tag">$18.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x16</span><span class="price-tag">$30.000</span></li><li class="flex justify-between items-center"><span class="text-on-surface">Caja x27</span><span class="price-tag">$45.000</span></li></ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20Mini%20Donas" target="_blank">
+                        Pedir por WhatsApp <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card bg-surface-container-low border-none shadow-none">
+<img alt="Personaliza tus Mini Donas" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuD7vnMOqULuO_8_ISA4bD5WvKuFuMLKB755zDF-q7zV1VwAmcvUonaPms7vnh-Ew3lNCL-pOj2Vvoi7ySN0S_nS5mGP9_oE3drlAwSbWjFygStngtbbp0FaVJtPv7S8ZNMR5nK7NpsoJCs-JzyQmUhkF8i1yl0wH4TZ2Ehulqf9xV5NcoVIv9vS2GvkbL7IhqPYRyHi1mfF7bu8WRputC_fOA6QZhEcIbmcokpWg80vrOA75O5DBvAZmw">
+<h4 class="font-title-sm text-title-sm text-secondary mb-4">Personaliza tus Mini Donas</h4>
+<div class="space-y-4">
+<div>
+<h5 class="font-semibold text-primary mb-1">Toppings:</h5>
+<p class="text-sm text-on-surface-variant">M&amp;M, maní, oreo, chips, fresas, banano, grageas.</p>
+</div>
+<div>
+<h5 class="font-semibold text-primary mb-1">Salsas:</h5>
+<p class="text-sm text-on-surface-variant">Nutella, arequipe, leche condensada, Hershey's, mora, fresa.</p>
+</div>
+<div>
+<h5 class="font-semibold text-primary mb-1">Toppings Premium:</h5>
+<p class="text-sm text-on-surface-variant">Kinder Bueno, Ferrero, etc.</p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<!-- Gelatinas 3D & Mini Cheesecakes -->
+<div class="relative px-margin-mobile md:px-0">
+<h3 class="font-headline-md text-headline-md text-primary mb-8 text-center md:text-left">Más Delicias</h3>
+<div class="relative group">
+<div class="flex overflow-x-auto hide-scrollbar snap-x snap-mandatory gap-6 pb-8 -mx-margin-mobile px-margin-mobile md:mx-0 md:px-0" id="carousel-delicias">
+<!-- Gelatinas 3D -->
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Gelatinas 3D" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcvqzEOMgZa5EilHFOZhGVh2Q8u-kHGFqf18Woq8j9IRqHNnjlOzkHR_TPNVnDbmXNxTRocWIF8jUr8NWNKnyHuqAJgrdlAMGQKJoi8o5H1H-Fmz-SFdXNg-hC7HD6F7enZF2XvTZNPE5lqcdQy4UfKmXUCwUBgGgzHvjwiBuwpxY3Or_0sRBKrZNh_znbYwn1a_sSFPKZxB_73kWsvUtsLSjEuSFBg0-_qIb56Kh2YQFxZ99bpbSlLw">
+<h4 class="font-title-sm text-title-sm text-secondary mb-2">Gelatinas 3D</h4>
+<p class="text-sm text-on-surface-variant mb-6 border-b border-outline-variant/30 pb-4">Hermosos diseños florales comestibles.</p>
+<ul class="space-y-3 mb-6 flex-grow">
+<li class="flex items-center text-on-surface"><span class="material-symbols-outlined text-primary mr-2 text-[18px]">local_florist</span> Rosa</li>
+<li class="flex items-center text-on-surface"><span class="material-symbols-outlined text-primary mr-2 text-[18px]">local_florist</span> Girasol</li>
+<li class="flex items-center text-on-surface"><span class="material-symbols-outlined text-primary mr-2 text-[18px]">local_florist</span> Margaritha</li>
+</ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20Gelatinas%203D" target="_blank">
+                        Consultar Precios <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+<!-- Mini Cheesecakes -->
+<div class="snap-center shrink-0 w-72 md:w-80">
+<div class="product-card">
+<img alt="Mini Cheesecakes" class="w-full h-48 object-cover rounded-lg mb-4" src="https://lh3.googleusercontent.com/aida-public/AB6AXuBcvqzEOMgZa5EilHFOZhGVh2Q8u-kHGFqf18Woq8j9IRqHNnjlOzkHR_TPNVnDbmXNxTRocWIF8jUr8NWNKnyHuqAJgrdlAMGQKJoi8o5H1H-Fmz-SFdXNg-hC7HD6F7enZF2XvTZNPE5lqcdQy4UfKmXUCwUBgGgzHvjwiBuwpxY3Or_0sRBKrZNh_znbYwn1a_sSFPKZxB_73kWsvUtsLSjEuSFBg0-_qIb56Kh2YQFxZ99bpbSlLw">
+<h4 class="font-title-sm text-title-sm text-secondary mb-2">Mini Cheesecakes</h4>
+<p class="text-sm text-on-surface-variant mb-6 border-b border-outline-variant/30 pb-4">Suaves y cremosos, perfectos para cualquier ocasión.</p>
+<ul class="space-y-3 mb-6 flex-grow">
+<li class="flex items-center text-on-surface"><span class="material-symbols-outlined text-primary mr-2 text-[18px]">pie_chart</span> Individual (100ml)</li>
+<li class="flex items-center text-on-surface"><span class="material-symbols-outlined text-primary mr-2 text-[18px]">cake</span> Familiar (3-5 porciones)</li>
+</ul>
+<a class="w-full inline-flex items-center justify-center py-3 btn-primary rounded-lg font-label-caps text-label-caps uppercase tracking-wider gap-2 mt-auto" href="https://wa.me/573108239392?text=Hola,%20quisiera%20pedir%20Mini%20Cheesecakes" target="_blank">
+                        Consultar Precios <span class="material-symbols-outlined text-[18px]">chat</span>
+</a>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</section>
+<!-- Footer -->
+<footer class="w-full bg-surface-container-highest dark:bg-inverse-surface border-t border-outline-variant/30">
+<div class="grid grid-cols-1 md:grid-cols-4 gap-gutter px-margin-desktop py-section-gap max-w-container-max mx-auto">
+<div class="space-y-4">
+<h4 class="font-headline-md text-headline-md text-secondary">DUMORE</h4>
+<p class="font-body-md text-body-md text-on-surface-variant">Editorial Elegance in Every Bite.</p>
+</div>
+<div class="space-y-2">
+<h5 class="font-title-sm text-title-sm text-secondary font-semibold">Productos</h5>
+<ul class="space-y-1">
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md" href="#">Fresas Premium</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md" href="#">Chocobombas</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md" href="#">Mini Donas</a></li>
+</ul>
+</div>
+<div class="space-y-2">
+<h5 class="font-title-sm text-title-sm text-secondary font-semibold">Más</h5>
+<ul class="space-y-1">
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md" href="#">Gelatinas 3D</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md" href="#">Mini Cheesecakes</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md" href="#">Coverage Area</a></li>
+<li class=""><a class="text-on-surface-variant hover:text-secondary transition-colors font-body-md text-body-md" href="#">Privacy Policy</a></li>
+</ul>
+</div>
+<div class="space-y-2">
+<h5 class="font-title-sm text-title-sm text-secondary font-semibold">Contacto</h5>
+<p class="font-body-md text-body-md text-on-surface-variant">Instagram: @dumorechocolat</p>
+<p class="font-body-md text-body-md text-on-surface-variant">WhatsApp: +573108239392</p>
+</div>
+</div>
+<div class="text-center py-4 border-t border-outline-variant/20">
+<p class="font-body-md text-body-md text-on-secondary-fixed-variant dark:text-inverse-primary">© 2024 DUMORE Chocolate. Editorial Elegance in Every Bite.</p>
+</div>
+</footer>
+<!-- WhatsApp FAB -->
+<a class="fixed bottom-8 right-8 z-50 bg-[#25D366] text-white p-4 rounded-full shadow-lg hover:scale-110 transition-transform" href="https://wa.me/573108239392" target="_blank">
+<svg class="w-8 h-8" fill="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+<path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413z"></path>
+</svg>
+</a>
+</main>
+
+
+
+
+
+
+</body></html>
